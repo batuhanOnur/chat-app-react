@@ -37,7 +37,16 @@ export const Button = styled.button`
     font-family: 'Inter';
     font-size: 16px;
     border-radius: 10px;
-    padding: 25px
+    padding: 25px;
+    font-weight: 500;
+    transition: 250ms background-color ease;
+    &:hover {
+        cursor: pointer;
+        background-color: #3415ff;
+    }
+    &:active {
+        background-color: #3a1cff;
+    }
 `;
 
 export const Page = styled.div`
